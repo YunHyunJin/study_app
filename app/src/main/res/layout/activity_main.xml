@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/menu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아메리카노 (4500원)"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/co1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"
+
+        android:hint="개수 입력"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+    android:id="@+id/menu2"
+        android:layout_margin="10dp"
+
+        android:hint="요거트 스무디 (5000원)"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+
+    <EditText
+        android:background="@color/colorPrimary"
+        android:id="@+id/co2"
+        android:layout_margin="10dp"
+
+        android:hint="개수 입력"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/menu3"
+        android:hint="에이드 (5500원)"
+        android:layout_margin="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/co3"
+        android:hint="개수 입력"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="한동대 할인 10%" />
+
+    <Button
+        android:onClick="counting"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산" />
+
+    <TextView
+        android:id="@+id/tva"
+        android:layout_width="match_parent"
+        android:textColor="#4CAF50"
+        android:layout_height="wrap_content"
+        android:text="원가: " />
+
+    <TextView
+        android:id="@+id/tvb"
+        android:textColor="#3F51B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="할인 금액: " />
+
+    <TextView
+        android:id="@+id/tvc"
+        android:textColor="#E91E63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결제 금액: " />
+</LinearLayout>
