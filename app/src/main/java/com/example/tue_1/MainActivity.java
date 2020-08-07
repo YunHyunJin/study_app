@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         pay2 *= 5000;
         int pay3 = Integer.parseInt(n3);
         pay3 *= 5500;
+        
         int sum = pay1+pay2+pay3;
 
         String original = Integer.toString(sum);
